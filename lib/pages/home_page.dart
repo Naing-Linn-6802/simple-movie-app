@@ -15,7 +15,7 @@ class HomePage extends StatelessWidget {
         appBar: AppBar(
           title: const Text("Discover"),
           centerTitle: true,
-          bottom: TabBar(
+          bottom: const TabBar(
             indicatorColor: AppColors.secondColor,
             indicatorSize: TabBarIndicatorSize.tab,
             indicatorWeight: 3.0,
@@ -23,9 +23,9 @@ class HomePage extends StatelessWidget {
             labelColor: Colors.white,
             isScrollable: true,
             tabs: [
-              Container(
-                padding: const EdgeInsets.only(bottom: 15.0, top: 10.0),
-                child: const Text(
+              Padding(
+                padding: EdgeInsets.only(bottom: 15.0, top: 10.0),
+                child: Text(
                   "NOW PLAYING",
                   style: TextStyle(
                     fontSize: 14.0,
@@ -33,9 +33,9 @@ class HomePage extends StatelessWidget {
                   ),
                 ),
               ),
-              Container(
-                padding: const EdgeInsets.only(bottom: 15.0, top: 10.0),
-                child: const Text(
+              Padding(
+                padding: EdgeInsets.only(bottom: 15.0, top: 10.0),
+                child: Text(
                   "TOP RATED",
                   style: TextStyle(
                     fontSize: 14.0,
@@ -43,9 +43,9 @@ class HomePage extends StatelessWidget {
                   ),
                 ),
               ),
-              Container(
-                padding: const EdgeInsets.only(bottom: 15.0, top: 10.0),
-                child: const Text(
+              Padding(
+                padding: EdgeInsets.only(bottom: 15.0, top: 10.0),
+                child: Text(
                   "UPCOMMING",
                   style: TextStyle(
                     fontSize: 14.0,
@@ -53,9 +53,9 @@ class HomePage extends StatelessWidget {
                   ),
                 ),
               ),
-              Container(
-                padding: const EdgeInsets.only(bottom: 15.0, top: 10.0),
-                child: const Text(
+              Padding(
+                padding: EdgeInsets.only(bottom: 15.0, top: 10.0),
+                child: Text(
                   "POPULAR",
                   style: TextStyle(
                     fontSize: 14.0,

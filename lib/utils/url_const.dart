@@ -10,4 +10,6 @@ class UrlConst {
   static String movieDetailUrl(int movieId) => "$mainUrl/movie/$movieId$_param";
   static String imageUrl(String path) =>
       "https://image.tmdb.org/t/p/w200/$path";
+  static String originalImageUrl(String path) =>
+      "https://image.tmdb.org/t/p/original/$path";
 }
