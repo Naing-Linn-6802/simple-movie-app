@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:movie_app_by_nainglinn/pages/home_page.dart';
+import 'package:movie_app_by_nainglinn/utils/theme.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,21 +13,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Movie App',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: const MyHomePage(),
-    );
-  }
-}
-
-class MyHomePage extends StatelessWidget {
-  const MyHomePage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(child: Text("Hello")),
+      theme: AppTheme.theme,
+      debugShowCheckedModeBanner: false,
+      home: const HomePage(),
     );
   }
 }

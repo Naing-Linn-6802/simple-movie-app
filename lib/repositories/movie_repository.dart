@@ -23,7 +23,7 @@ class MovieRepository {
 
   Future<Either<String, MovieDetail>> getMovieDetail(int movieId) async {
     try {
-      final resp = await client.get(UrlCont.movieDetailUrl(movieId));
+      final resp = await client.get(UrlConst.movieDetailUrl(movieId));
       final movieDetail = MovieDetail.fromJson(resp.data);
       return right(movieDetail);
     } on DioError catch (e) {
