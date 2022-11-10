@@ -54,6 +54,7 @@ class MovieBox extends StatelessWidget {
               child: Padding(
             padding: const EdgeInsets.all(5.0),
             child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
                   movie.title ?? "movie name",
