@@ -1,6 +1,6 @@
 class UrlConst {
   static const String mainUrl = "https://api.themoviedb.org/3";
-  static const String _apiKey = "a92f28e11a27e8e5938a2020be68ba9c";
+  static const String _apiKey = "your api key";
   static const String _param = "?api_key=$_apiKey&language=en-US";
   static const String nowPlayingMovieUrl = "$mainUrl/movie/now_playing$_param";
   static const String popularMovieUrl = "$mainUrl/movie/popular$_param";
