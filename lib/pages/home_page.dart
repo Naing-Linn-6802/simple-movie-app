@@ -23,45 +23,17 @@ class HomePage extends StatelessWidget {
             labelColor: Colors.white,
             isScrollable: true,
             tabs: [
-              Padding(
-                padding: EdgeInsets.only(bottom: 15.0, top: 10.0),
-                child: Text(
-                  "NOW PLAYING",
-                  style: TextStyle(
-                    fontSize: 14.0,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
+              _TabItemWidget(
+                title: "NOW PLAYING",
               ),
-              Padding(
-                padding: EdgeInsets.only(bottom: 15.0, top: 10.0),
-                child: Text(
-                  "TOP RATED",
-                  style: TextStyle(
-                    fontSize: 14.0,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
+              _TabItemWidget(
+                title: "TOP RATED",
               ),
-              Padding(
-                padding: EdgeInsets.only(bottom: 15.0, top: 10.0),
-                child: Text(
-                  "UPCOMMING",
-                  style: TextStyle(
-                    fontSize: 14.0,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
+              _TabItemWidget(
+                title: "UPCOMMING",
               ),
-              Padding(
-                padding: EdgeInsets.only(bottom: 15.0, top: 10.0),
-                child: Text(
-                  "POPULAR",
-                  style: TextStyle(
-                    fontSize: 14.0,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
+              _TabItemWidget(
+                title: "POPULAR",
               ),
             ],
           ),
@@ -73,6 +45,29 @@ class HomePage extends StatelessWidget {
             MoviesGridView(url: UrlConst.topRatedMovieUrl),
             MoviesGridView(url: UrlConst.upcomingMovieUrl),
           ],
+        ),
+      ),
+    );
+  }
+}
+
+class _TabItemWidget extends StatelessWidget {
+  final String title;
+
+  const _TabItemWidget({
+    Key? key,
+    required this.title,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 15.0, top: 10.0),
+      child: Text(
+        title,
+        style: const TextStyle(
+          fontSize: 14.0,
+          fontWeight: FontWeight.bold,
         ),
       ),
     );
