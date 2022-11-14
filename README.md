@@ -1,4 +1,4 @@
-# movie_app_by_nainglinn
+# simple_movie_app
 
 A new Flutter project.
 

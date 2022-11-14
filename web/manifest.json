@@ -1,6 +1,6 @@
 {
-    "name": "movie_app_by_nainglinn",
-    "short_name": "movie_app_by_nainglinn",
+    "name": "simple_movie_app",
+    "short_name": "simple_movie_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

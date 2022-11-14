@@ -1,8 +1,8 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:eva_icons_flutter/eva_icons_flutter.dart';
 import 'package:flutter/material.dart';
-import 'package:movie_app_by_nainglinn/models/movies_response.dart';
-import 'package:movie_app_by_nainglinn/widgets/rating_bar_widget.dart';
+import 'package:simple_movie_app/models/movies_response.dart';
+import 'package:simple_movie_app/widgets/rating_bar_widget.dart';
 
 import '../pages/movie_detail_screen.dart';
 import '../utils/url_const.dart';

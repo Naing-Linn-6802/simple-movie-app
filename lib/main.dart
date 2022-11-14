@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:movie_app_by_nainglinn/pages/home_page.dart';
-import 'package:movie_app_by_nainglinn/utils/theme.dart';
+import 'package:simple_movie_app/pages/home_page.dart';
+import 'package:simple_movie_app/utils/theme.dart';
 
 void main() {
   runApp(const MyApp());

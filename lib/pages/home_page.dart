@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:movie_app_by_nainglinn/utils/color_const.dart';
-import 'package:movie_app_by_nainglinn/widgets/movies_gridview.dart';
+import 'package:simple_movie_app/utils/color_const.dart';
+import 'package:simple_movie_app/widgets/movies_gridview.dart';
 
 import '../utils/url_const.dart';
 

@@ -1,9 +1,9 @@
 import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
-import 'package:movie_app_by_nainglinn/models/movie_detail.dart';
-import 'package:movie_app_by_nainglinn/models/movies_response.dart';
-import 'package:movie_app_by_nainglinn/utils/dio_error.dart';
-import 'package:movie_app_by_nainglinn/utils/url_const.dart';
+import 'package:simple_movie_app/models/movie_detail.dart';
+import 'package:simple_movie_app/models/movies_response.dart';
+import 'package:simple_movie_app/utils/dio_error.dart';
+import 'package:simple_movie_app/utils/url_const.dart';
 
 class MovieRepository {
   MovieRepository(this.client);

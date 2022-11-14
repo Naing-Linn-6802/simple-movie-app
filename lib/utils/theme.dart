@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:movie_app_by_nainglinn/utils/color_const.dart';
+import 'package:simple_movie_app/utils/color_const.dart';
 
 class AppTheme {
   static ThemeData theme = ThemeData(

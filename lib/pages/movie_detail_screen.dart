@@ -2,11 +2,11 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:movie_app_by_nainglinn/models/movie_detail.dart';
-import 'package:movie_app_by_nainglinn/repositories/movie_repository.dart';
-import 'package:movie_app_by_nainglinn/utils/theme.dart';
-import 'package:movie_app_by_nainglinn/utils/url_const.dart';
-import 'package:movie_app_by_nainglinn/widgets/rating_bar_widget.dart';
+import 'package:simple_movie_app/models/movie_detail.dart';
+import 'package:simple_movie_app/repositories/movie_repository.dart';
+import 'package:simple_movie_app/utils/theme.dart';
+import 'package:simple_movie_app/utils/url_const.dart';
+import 'package:simple_movie_app/widgets/rating_bar_widget.dart';
 
 import '../cubits/movie_detail_cubit.dart';
 import '../cubits/movie_detail_state.dart';

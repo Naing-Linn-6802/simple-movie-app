@@ -1,8 +1,8 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:movie_app_by_nainglinn/models/movies_response.dart';
-import 'package:movie_app_by_nainglinn/widgets/movie_box.dart';
+import 'package:simple_movie_app/models/movies_response.dart';
+import 'package:simple_movie_app/widgets/movie_box.dart';
 
 import '../cubits/movies_state.dart';
 import '../cubits/popular_movies_cubit.dart';
